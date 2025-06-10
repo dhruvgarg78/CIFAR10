@@ -1,6 +1,6 @@
 # CIFAR-10 Custom CNN
 
-A high-performance CNN for the CIFAR-10 dataset, trained to achieve **99.5% test accuracy** with **<190k parameters**.
+A high-performance CNN for the CIFAR-10 dataset, trained to achieve **90.5% test accuracy** with **<190k parameters**.
 
 ![Screenshot 2025-06-09 160953](https://github.com/user-attachments/assets/21a945f0-6873-4447-aff1-d8a61c5364f0)
 
@@ -54,7 +54,7 @@ python train.py
 
 ## Results
 
-- ✅ **Final test accuracy:** ~99.5%  
+- ✅ **Final test accuracy:** ~90.5%  
 - ✅ **Parameter count:** <190k  
 - ✅ **Converges within ~70 epochs**
 
