@@ -58,7 +58,7 @@ python train.py
 - ✅ **Parameter count:** <190k  
 - ✅ **Converges within ~70 epochs**
 
-## Techniques that enabled 99.5% under 190k params
+## Techniques that enabled 90.5% under 190k params
 
 - ✅ **Depthwise Separable Convolutions** — drastically reduced parameter count and computational cost
 - ✅ **Dilation** — used in specific layers to increase effective receptive field
