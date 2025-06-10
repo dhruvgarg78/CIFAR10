@@ -1,415 +1,1119 @@
-Epoch [1/70]: 100%|██████████| 782/782 [00:50<00:00, 15.60it/s, loss=1.81, lr=0.004536]
+Epoch [1/70]: 100%|██████████| 782/782 [00:35<00:00, 22.07it/s, loss=2.12, lr=0.001134]
 
 === Epoch [1/70] Summary ===
-Train Loss: 1.8225 | Test Accuracy: 39.02%
-Class [plane] Accuracy: 67.30% (673/1000)
-Class [car] Accuracy: 39.90% (399/1000)
-Class [bird] Accuracy: 24.20% (242/1000)
-Class [cat] Accuracy: 7.60% (76/1000)
-Class [deer] Accuracy: 43.90% (439/1000)
-Class [dog] Accuracy: 31.60% (316/1000)
-Class [frog] Accuracy: 36.60% (366/1000)
-Class [horse] Accuracy: 44.30% (443/1000)
-Class [ship] Accuracy: 30.70% (307/1000)
-Class [truck] Accuracy: 64.10% (641/1000)
+Train Loss: 2.1235 | Test Accuracy: 25.27%
+Class [plane] Accuracy: 26.60% (266/1000)
+Class [car] Accuracy: 68.50% (685/1000)
+Class [bird] Accuracy: 0.10% (1/1000)
+Class [cat] Accuracy: 1.60% (16/1000)
+Class [deer] Accuracy: 10.90% (109/1000)
+Class [dog] Accuracy: 2.60% (26/1000)
+Class [frog] Accuracy: 83.70% (837/1000)
+Class [horse] Accuracy: 4.90% (49/1000)
+Class [ship] Accuracy: 40.60% (406/1000)
+Class [truck] Accuracy: 13.20% (132/1000)
 ============================================
 
-Epoch [2/70]: 100%|██████████| 782/782 [00:48<00:00, 15.99it/s, loss=1.38, lr=0.006133]
+Epoch [2/70]: 100%|██████████| 782/782 [00:35<00:00, 22.15it/s, loss=1.74, lr=0.001533]
 
 === Epoch [2/70] Summary ===
-Train Loss: 1.4517 | Test Accuracy: 50.37%
-Class [plane] Accuracy: 59.80% (598/1000)
-Class [car] Accuracy: 38.60% (386/1000)
-Class [bird] Accuracy: 22.40% (224/1000)
-Class [cat] Accuracy: 17.90% (179/1000)
-Class [deer] Accuracy: 38.30% (383/1000)
-Class [dog] Accuracy: 68.90% (689/1000)
-Class [frog] Accuracy: 62.10% (621/1000)
-Class [horse] Accuracy: 72.80% (728/1000)
-Class [ship] Accuracy: 47.00% (470/1000)
-Class [truck] Accuracy: 75.90% (759/1000)
+Train Loss: 1.9503 | Test Accuracy: 28.86%
+Class [plane] Accuracy: 43.50% (435/1000)
+Class [car] Accuracy: 45.60% (456/1000)
+Class [bird] Accuracy: 18.70% (187/1000)
+Class [cat] Accuracy: 1.20% (12/1000)
+Class [deer] Accuracy: 19.60% (196/1000)
+Class [dog] Accuracy: 0.00% (0/1000)
+Class [frog] Accuracy: 79.00% (790/1000)
+Class [horse] Accuracy: 18.30% (183/1000)
+Class [ship] Accuracy: 32.70% (327/1000)
+Class [truck] Accuracy: 30.00% (300/1000)
 ============================================
 
-Epoch [3/70]: 100%|██████████| 782/782 [00:48<00:00, 16.00it/s, loss=1.1, lr=0.008754]
+Epoch [3/70]: 100%|██████████| 782/782 [00:35<00:00, 21.97it/s, loss=1.57, lr=0.002189]
 
 === Epoch [3/70] Summary ===
-Train Loss: 1.2590 | Test Accuracy: 57.07%
-Class [plane] Accuracy: 38.80% (388/1000)
-Class [car] Accuracy: 63.50% (635/1000)
-Class [bird] Accuracy: 41.30% (413/1000)
-Class [cat] Accuracy: 21.60% (216/1000)
-Class [deer] Accuracy: 55.90% (559/1000)
-Class [dog] Accuracy: 41.30% (413/1000)
-Class [frog] Accuracy: 82.40% (824/1000)
-Class [horse] Accuracy: 57.20% (572/1000)
-Class [ship] Accuracy: 80.50% (805/1000)
-Class [truck] Accuracy: 88.20% (882/1000)
+Train Loss: 1.8595 | Test Accuracy: 31.96%
+Class [plane] Accuracy: 49.80% (498/1000)
+Class [car] Accuracy: 29.30% (293/1000)
+Class [bird] Accuracy: 45.00% (450/1000)
+Class [cat] Accuracy: 2.00% (20/1000)
+Class [deer] Accuracy: 12.90% (129/1000)
+Class [dog] Accuracy: 8.50% (85/1000)
+Class [frog] Accuracy: 66.40% (664/1000)
+Class [horse] Accuracy: 27.10% (271/1000)
+Class [ship] Accuracy: 29.70% (297/1000)
+Class [truck] Accuracy: 48.90% (489/1000)
 ============================================
 
-Epoch [4/70]: 100%|██████████| 782/782 [00:49<00:00, 15.72it/s, loss=1.29, lr=0.012342]
+Epoch [4/70]: 100%|██████████| 782/782 [00:35<00:00, 22.08it/s, loss=1.44, lr=0.003085]
 
 === Epoch [4/70] Summary ===
-Train Loss: 1.1375 | Test Accuracy: 47.32%
-Class [plane] Accuracy: 38.70% (387/1000)
-Class [car] Accuracy: 25.80% (258/1000)
-Class [bird] Accuracy: 17.10% (171/1000)
-Class [cat] Accuracy: 14.60% (146/1000)
-Class [deer] Accuracy: 31.40% (314/1000)
-Class [dog] Accuracy: 39.90% (399/1000)
-Class [frog] Accuracy: 54.60% (546/1000)
-Class [horse] Accuracy: 75.30% (753/1000)
-Class [ship] Accuracy: 78.70% (787/1000)
-Class [truck] Accuracy: 97.10% (971/1000)
+Train Loss: 1.7733 | Test Accuracy: 43.88%
+Class [plane] Accuracy: 36.30% (363/1000)
+Class [car] Accuracy: 55.40% (554/1000)
+Class [bird] Accuracy: 20.00% (200/1000)
+Class [cat] Accuracy: 6.40% (64/1000)
+Class [deer] Accuracy: 23.40% (234/1000)
+Class [dog] Accuracy: 43.60% (436/1000)
+Class [frog] Accuracy: 86.40% (864/1000)
+Class [horse] Accuracy: 62.90% (629/1000)
+Class [ship] Accuracy: 63.50% (635/1000)
+Class [truck] Accuracy: 40.90% (409/1000)
 ============================================
 
-Epoch [5/70]: 100%|██████████| 782/782 [00:49<00:00, 15.90it/s, loss=1.21, lr=0.016815]
+Epoch [5/70]: 100%|██████████| 782/782 [00:35<00:00, 21.91it/s, loss=2.1, lr=0.004204]
 
 === Epoch [5/70] Summary ===
-Train Loss: 1.0728 | Test Accuracy: 62.43%
-Class [plane] Accuracy: 66.30% (663/1000)
-Class [car] Accuracy: 69.20% (692/1000)
-Class [bird] Accuracy: 52.10% (521/1000)
-Class [cat] Accuracy: 28.30% (283/1000)
-Class [deer] Accuracy: 60.20% (602/1000)
-Class [dog] Accuracy: 41.80% (418/1000)
-Class [frog] Accuracy: 82.70% (827/1000)
-Class [horse] Accuracy: 53.40% (534/1000)
-Class [ship] Accuracy: 77.10% (771/1000)
-Class [truck] Accuracy: 93.20% (932/1000)
+Train Loss: 1.6590 | Test Accuracy: 47.55%
+Class [plane] Accuracy: 19.90% (199/1000)
+Class [car] Accuracy: 72.60% (726/1000)
+Class [bird] Accuracy: 20.90% (209/1000)
+Class [cat] Accuracy: 17.80% (178/1000)
+Class [deer] Accuracy: 31.60% (316/1000)
+Class [dog] Accuracy: 35.70% (357/1000)
+Class [frog] Accuracy: 91.90% (919/1000)
+Class [horse] Accuracy: 57.70% (577/1000)
+Class [ship] Accuracy: 88.00% (880/1000)
+Class [truck] Accuracy: 39.40% (394/1000)
 ============================================
 
-Epoch [6/70]: 100%|██████████| 782/782 [00:49<00:00, 15.88it/s, loss=1.1, lr=0.022075]
+Epoch [6/70]: 100%|██████████| 782/782 [00:35<00:00, 21.73it/s, loss=2.05, lr=0.005519]
 
 === Epoch [6/70] Summary ===
-Train Loss: 1.0105 | Test Accuracy: 54.63%
-Class [plane] Accuracy: 75.70% (757/1000)
-Class [car] Accuracy: 95.00% (950/1000)
-Class [bird] Accuracy: 38.70% (387/1000)
-Class [cat] Accuracy: 14.20% (142/1000)
-Class [deer] Accuracy: 57.80% (578/1000)
-Class [dog] Accuracy: 7.60% (76/1000)
-Class [frog] Accuracy: 93.30% (933/1000)
-Class [horse] Accuracy: 15.30% (153/1000)
-Class [ship] Accuracy: 86.40% (864/1000)
-Class [truck] Accuracy: 62.30% (623/1000)
+Train Loss: 1.5786 | Test Accuracy: 54.44%
+Class [plane] Accuracy: 23.80% (238/1000)
+Class [car] Accuracy: 70.80% (708/1000)
+Class [bird] Accuracy: 22.70% (227/1000)
+Class [cat] Accuracy: 25.20% (252/1000)
+Class [deer] Accuracy: 36.70% (367/1000)
+Class [dog] Accuracy: 74.20% (742/1000)
+Class [frog] Accuracy: 81.00% (810/1000)
+Class [horse] Accuracy: 64.90% (649/1000)
+Class [ship] Accuracy: 79.60% (796/1000)
+Class [truck] Accuracy: 65.50% (655/1000)
 ============================================
 
-Epoch [7/70]: 100%|██████████| 782/782 [00:49<00:00, 15.82it/s, loss=1.33, lr=0.028003]
+Epoch [7/70]: 100%|██████████| 782/782 [00:35<00:00, 22.12it/s, loss=1.44, lr=0.007001]
 
 === Epoch [7/70] Summary ===
-Train Loss: 0.9819 | Test Accuracy: 69.10%
-Class [plane] Accuracy: 74.50% (745/1000)
-Class [car] Accuracy: 88.80% (888/1000)
-Class [bird] Accuracy: 50.40% (504/1000)
-Class [cat] Accuracy: 59.00% (590/1000)
-Class [deer] Accuracy: 50.50% (505/1000)
-Class [dog] Accuracy: 60.10% (601/1000)
-Class [frog] Accuracy: 77.60% (776/1000)
-Class [horse] Accuracy: 75.10% (751/1000)
-Class [ship] Accuracy: 69.90% (699/1000)
-Class [truck] Accuracy: 85.10% (851/1000)
+Train Loss: 1.5417 | Test Accuracy: 61.19%
+Class [plane] Accuracy: 45.10% (451/1000)
+Class [car] Accuracy: 77.00% (770/1000)
+Class [bird] Accuracy: 47.30% (473/1000)
+Class [cat] Accuracy: 34.70% (347/1000)
+Class [deer] Accuracy: 52.10% (521/1000)
+Class [dog] Accuracy: 58.90% (589/1000)
+Class [frog] Accuracy: 80.20% (802/1000)
+Class [horse] Accuracy: 66.20% (662/1000)
+Class [ship] Accuracy: 89.50% (895/1000)
+Class [truck] Accuracy: 60.90% (609/1000)
 ============================================
 
-Epoch [8/70]: 100%|██████████| 782/782 [00:49<00:00, 15.88it/s, loss=1.38, lr=0.034467]
+Epoch [8/70]: 100%|██████████| 782/782 [00:35<00:00, 22.09it/s, loss=1.45, lr=0.008617]
 
 === Epoch [8/70] Summary ===
-Train Loss: 0.9565 | Test Accuracy: 55.51%
-Class [plane] Accuracy: 57.40% (574/1000)
-Class [car] Accuracy: 92.10% (921/1000)
-Class [bird] Accuracy: 27.20% (272/1000)
-Class [cat] Accuracy: 36.00% (360/1000)
-Class [deer] Accuracy: 38.90% (389/1000)
-Class [dog] Accuracy: 86.60% (866/1000)
-Class [frog] Accuracy: 83.90% (839/1000)
-Class [horse] Accuracy: 61.40% (614/1000)
-Class [ship] Accuracy: 24.50% (245/1000)
-Class [truck] Accuracy: 47.10% (471/1000)
+Train Loss: 1.4633 | Test Accuracy: 64.24%
+Class [plane] Accuracy: 68.00% (680/1000)
+Class [car] Accuracy: 91.70% (917/1000)
+Class [bird] Accuracy: 39.40% (394/1000)
+Class [cat] Accuracy: 22.50% (225/1000)
+Class [deer] Accuracy: 51.40% (514/1000)
+Class [dog] Accuracy: 55.80% (558/1000)
+Class [frog] Accuracy: 79.50% (795/1000)
+Class [horse] Accuracy: 81.40% (814/1000)
+Class [ship] Accuracy: 81.30% (813/1000)
+Class [truck] Accuracy: 71.40% (714/1000)
 ============================================
 
-Epoch [9/70]: 100%|██████████| 782/782 [00:49<00:00, 15.71it/s, loss=1.14, lr=0.041323]
+Epoch [9/70]: 100%|██████████| 782/782 [00:35<00:00, 22.21it/s, loss=0.948, lr=0.010331]
 
 === Epoch [9/70] Summary ===
-Train Loss: 0.9416 | Test Accuracy: 68.71%
-Class [plane] Accuracy: 70.50% (705/1000)
-Class [car] Accuracy: 83.20% (832/1000)
-Class [bird] Accuracy: 59.10% (591/1000)
-Class [cat] Accuracy: 53.40% (534/1000)
-Class [deer] Accuracy: 40.30% (403/1000)
-Class [dog] Accuracy: 62.40% (624/1000)
-Class [frog] Accuracy: 74.60% (746/1000)
-Class [horse] Accuracy: 74.70% (747/1000)
-Class [ship] Accuracy: 90.90% (909/1000)
-Class [truck] Accuracy: 78.00% (780/1000)
-============================================
-
-Epoch [10/70]: 100%|██████████| 782/782 [00:48<00:00, 15.97it/s, loss=0.873, lr=0.048417]
-
-=== Epoch [10/70] Summary ===
-Train Loss: 0.9183 | Test Accuracy: 66.47%
-Class [plane] Accuracy: 67.20% (672/1000)
-Class [car] Accuracy: 94.10% (941/1000)
-Class [bird] Accuracy: 51.70% (517/1000)
-Class [cat] Accuracy: 41.90% (419/1000)
-Class [deer] Accuracy: 55.50% (555/1000)
-Class [dog] Accuracy: 48.60% (486/1000)
-Class [frog] Accuracy: 88.60% (886/1000)
-Class [horse] Accuracy: 85.60% (856/1000)
-Class [ship] Accuracy: 82.90% (829/1000)
-Class [truck] Accuracy: 48.60% (486/1000)
-============================================
-
-Epoch [11/70]: 100%|██████████| 782/782 [00:48<00:00, 16.13it/s, loss=0.975, lr=0.055592]
-
-=== Epoch [11/70] Summary ===
-Train Loss: 0.9104 | Test Accuracy: 66.17%
-Class [plane] Accuracy: 67.50% (675/1000)
-Class [car] Accuracy: 85.60% (856/1000)
-Class [bird] Accuracy: 43.30% (433/1000)
-Class [cat] Accuracy: 41.80% (418/1000)
-Class [deer] Accuracy: 77.40% (774/1000)
-Class [dog] Accuracy: 33.20% (332/1000)
-Class [frog] Accuracy: 90.70% (907/1000)
-Class [horse] Accuracy: 69.90% (699/1000)
-Class [ship] Accuracy: 75.60% (756/1000)
-Class [truck] Accuracy: 76.70% (767/1000)
-============================================
-
-Epoch [12/70]: 100%|██████████| 782/782 [00:48<00:00, 16.02it/s, loss=1.02, lr=0.062686]
-
-=== Epoch [12/70] Summary ===
-Train Loss: 0.8979 | Test Accuracy: 66.91%
-Class [plane] Accuracy: 63.50% (635/1000)
-Class [car] Accuracy: 73.40% (734/1000)
-Class [bird] Accuracy: 64.40% (644/1000)
-Class [cat] Accuracy: 50.10% (501/1000)
-Class [deer] Accuracy: 56.30% (563/1000)
-Class [dog] Accuracy: 71.80% (718/1000)
-Class [frog] Accuracy: 78.20% (782/1000)
-Class [horse] Accuracy: 76.20% (762/1000)
-Class [ship] Accuracy: 66.90% (669/1000)
-Class [truck] Accuracy: 68.30% (683/1000)
-============================================
-
-Epoch [13/70]: 100%|██████████| 782/782 [00:49<00:00, 15.66it/s, loss=0.731, lr=0.069542]
-
-=== Epoch [13/70] Summary ===
-Train Loss: 0.8905 | Test Accuracy: 50.76%
-Class [plane] Accuracy: 54.80% (548/1000)
-Class [car] Accuracy: 73.00% (730/1000)
-Class [bird] Accuracy: 24.00% (240/1000)
-Class [cat] Accuracy: 70.10% (701/1000)
-Class [deer] Accuracy: 32.60% (326/1000)
-Class [dog] Accuracy: 41.70% (417/1000)
-Class [frog] Accuracy: 89.50% (895/1000)
-Class [horse] Accuracy: 12.10% (121/1000)
-Class [ship] Accuracy: 42.50% (425/1000)
-Class [truck] Accuracy: 67.30% (673/1000)
-============================================
-
-Epoch [14/70]: 100%|██████████| 782/782 [00:49<00:00, 15.87it/s, loss=0.766, lr=0.076005]
-
-=== Epoch [14/70] Summary ===
-Train Loss: 0.8822 | Test Accuracy: 57.83%
-Class [plane] Accuracy: 70.80% (708/1000)
-Class [car] Accuracy: 49.50% (495/1000)
-Class [bird] Accuracy: 25.30% (253/1000)
-Class [cat] Accuracy: 55.00% (550/1000)
-Class [deer] Accuracy: 88.50% (885/1000)
-Class [dog] Accuracy: 27.30% (273/1000)
-Class [frog] Accuracy: 40.20% (402/1000)
-Class [horse] Accuracy: 54.50% (545/1000)
-Class [ship] Accuracy: 70.80% (708/1000)
-Class [truck] Accuracy: 96.40% (964/1000)
-============================================
-
-Epoch [15/70]: 100%|██████████| 782/782 [00:49<00:00, 15.91it/s, loss=0.634, lr=0.081933]
-
-=== Epoch [15/70] Summary ===
-Train Loss: 0.8711 | Test Accuracy: 68.62%
-Class [plane] Accuracy: 65.60% (656/1000)
-Class [car] Accuracy: 89.70% (897/1000)
-Class [bird] Accuracy: 49.50% (495/1000)
-Class [cat] Accuracy: 47.10% (471/1000)
-Class [deer] Accuracy: 49.00% (490/1000)
-Class [dog] Accuracy: 85.90% (859/1000)
-Class [frog] Accuracy: 54.10% (541/1000)
-Class [horse] Accuracy: 75.20% (752/1000)
-Class [ship] Accuracy: 90.30% (903/1000)
-Class [truck] Accuracy: 79.80% (798/1000)
-============================================
-
-Epoch [16/70]: 100%|██████████| 782/782 [00:49<00:00, 15.91it/s, loss=0.591, lr=0.087191]
-
-=== Epoch [16/70] Summary ===
-Train Loss: 0.8656 | Test Accuracy: 71.28%
-Class [plane] Accuracy: 62.20% (622/1000)
-Class [car] Accuracy: 87.20% (872/1000)
-Class [bird] Accuracy: 53.90% (539/1000)
-Class [cat] Accuracy: 43.10% (431/1000)
-Class [deer] Accuracy: 58.80% (588/1000)
-Class [dog] Accuracy: 64.60% (646/1000)
-Class [frog] Accuracy: 80.60% (806/1000)
-Class [horse] Accuracy: 87.90% (879/1000)
-Class [ship] Accuracy: 81.60% (816/1000)
-Class [truck] Accuracy: 92.90% (929/1000)
-============================================
-
-Epoch [17/70]: 100%|██████████| 782/782 [00:49<00:00, 15.84it/s, loss=0.429, lr=0.091664]
-
-=== Epoch [17/70] Summary ===
-Train Loss: 0.8615 | Test Accuracy: 67.76%
-Class [plane] Accuracy: 68.20% (682/1000)
-Class [car] Accuracy: 83.70% (837/1000)
-Class [bird] Accuracy: 47.80% (478/1000)
-Class [cat] Accuracy: 43.20% (432/1000)
-Class [deer] Accuracy: 69.60% (696/1000)
-Class [dog] Accuracy: 77.80% (778/1000)
-Class [frog] Accuracy: 60.90% (609/1000)
-Class [horse] Accuracy: 66.70% (667/1000)
-Class [ship] Accuracy: 65.30% (653/1000)
-Class [truck] Accuracy: 94.40% (944/1000)
-============================================
-
-Epoch [18/70]: 100%|██████████| 782/782 [00:49<00:00, 15.70it/s, loss=0.982, lr=0.095250]
-
-=== Epoch [18/70] Summary ===
-Train Loss: 0.8658 | Test Accuracy: 52.13%
-Class [plane] Accuracy: 60.50% (605/1000)
-Class [car] Accuracy: 99.40% (994/1000)
-Class [bird] Accuracy: 41.00% (410/1000)
-Class [cat] Accuracy: 28.10% (281/1000)
-Class [deer] Accuracy: 14.40% (144/1000)
-Class [dog] Accuracy: 69.00% (690/1000)
-Class [frog] Accuracy: 13.10% (131/1000)
-Class [horse] Accuracy: 85.20% (852/1000)
-Class [ship] Accuracy: 71.00% (710/1000)
-Class [truck] Accuracy: 39.60% (396/1000)
-============================================
-
-Epoch [19/70]: 100%|██████████| 782/782 [00:49<00:00, 15.80it/s, loss=0.838, lr=0.097870]
-
-=== Epoch [19/70] Summary ===
-Train Loss: 0.8595 | Test Accuracy: 69.27%
-Class [plane] Accuracy: 51.00% (510/1000)
-Class [car] Accuracy: 82.70% (827/1000)
-Class [bird] Accuracy: 71.80% (718/1000)
-Class [cat] Accuracy: 65.70% (657/1000)
-Class [deer] Accuracy: 71.40% (714/1000)
-Class [dog] Accuracy: 51.40% (514/1000)
-Class [frog] Accuracy: 79.10% (791/1000)
-Class [horse] Accuracy: 77.30% (773/1000)
-Class [ship] Accuracy: 71.30% (713/1000)
-Class [truck] Accuracy: 71.00% (710/1000)
-============================================
-
-Epoch [20/70]: 100%|██████████| 782/782 [00:49<00:00, 15.83it/s, loss=0.928, lr=0.099465]
-
-=== Epoch [20/70] Summary ===
-Train Loss: 0.8457 | Test Accuracy: 57.92%
-Class [plane] Accuracy: 70.10% (701/1000)
-Class [car] Accuracy: 95.70% (957/1000)
-Class [bird] Accuracy: 63.60% (636/1000)
-Class [cat] Accuracy: 19.80% (198/1000)
-Class [deer] Accuracy: 30.30% (303/1000)
-Class [dog] Accuracy: 7.10% (71/1000)
-Class [frog] Accuracy: 60.60% (606/1000)
-Class [horse] Accuracy: 76.10% (761/1000)
-Class [ship] Accuracy: 87.20% (872/1000)
-Class [truck] Accuracy: 68.70% (687/1000)
-============================================
-
-Epoch [21/70]: 100%|██████████| 782/782 [00:49<00:00, 15.88it/s, loss=0.734, lr=0.100000]
-
-=== Epoch [21/70] Summary ===
-Train Loss: 0.8432 | Test Accuracy: 64.99%
-Class [plane] Accuracy: 68.00% (680/1000)
-Class [car] Accuracy: 51.40% (514/1000)
-Class [bird] Accuracy: 57.50% (575/1000)
-Class [cat] Accuracy: 33.70% (337/1000)
-Class [deer] Accuracy: 83.00% (830/1000)
-Class [dog] Accuracy: 78.00% (780/1000)
-Class [frog] Accuracy: 54.70% (547/1000)
-Class [horse] Accuracy: 70.90% (709/1000)
-Class [ship] Accuracy: 63.00% (630/1000)
-Class [truck] Accuracy: 89.70% (897/1000)
-============================================
-
-Epoch [22/70]: 100%|██████████| 782/782 [00:50<00:00, 15.60it/s, loss=0.925, lr=0.099897]
-
-=== Epoch [22/70] Summary ===
-Train Loss: 0.8422 | Test Accuracy: 70.74%
-Class [plane] Accuracy: 57.00% (570/1000)
-Class [car] Accuracy: 88.10% (881/1000)
-Class [bird] Accuracy: 41.50% (415/1000)
-Class [cat] Accuracy: 57.20% (572/1000)
-Class [deer] Accuracy: 76.30% (763/1000)
-Class [dog] Accuracy: 81.00% (810/1000)
-Class [frog] Accuracy: 66.50% (665/1000)
-Class [horse] Accuracy: 68.90% (689/1000)
-Class [ship] Accuracy: 85.60% (856/1000)
+Train Loss: 1.4280 | Test Accuracy: 63.36%
+Class [plane] Accuracy: 41.50% (415/1000)
+Class [car] Accuracy: 80.10% (801/1000)
+Class [bird] Accuracy: 31.50% (315/1000)
+Class [cat] Accuracy: 20.70% (207/1000)
+Class [deer] Accuracy: 69.50% (695/1000)
+Class [dog] Accuracy: 50.70% (507/1000)
+Class [frog] Accuracy: 80.70% (807/1000)
+Class [horse] Accuracy: 83.50% (835/1000)
+Class [ship] Accuracy: 90.10% (901/1000)
 Class [truck] Accuracy: 85.30% (853/1000)
 ============================================
 
-Epoch [23/70]: 100%|██████████| 782/782 [00:49<00:00, 15.88it/s, loss=0.879, lr=0.099589]
+Epoch [10/70]: 100%|██████████| 782/782 [00:35<00:00, 22.08it/s, loss=1.68, lr=0.012104]
+
+=== Epoch [10/70] Summary ===
+Train Loss: 1.3979 | Test Accuracy: 67.74%
+Class [plane] Accuracy: 75.40% (754/1000)
+Class [car] Accuracy: 90.60% (906/1000)
+Class [bird] Accuracy: 44.70% (447/1000)
+Class [cat] Accuracy: 40.60% (406/1000)
+Class [deer] Accuracy: 67.40% (674/1000)
+Class [dog] Accuracy: 52.60% (526/1000)
+Class [frog] Accuracy: 88.60% (886/1000)
+Class [horse] Accuracy: 56.70% (567/1000)
+Class [ship] Accuracy: 87.20% (872/1000)
+Class [truck] Accuracy: 73.60% (736/1000)
+============================================
+
+Epoch [11/70]: 100%|██████████| 782/782 [00:36<00:00, 21.64it/s, loss=1.2, lr=0.013898]
+
+=== Epoch [11/70] Summary ===
+Train Loss: 1.3594 | Test Accuracy: 67.54%
+Class [plane] Accuracy: 75.60% (756/1000)
+Class [car] Accuracy: 82.80% (828/1000)
+Class [bird] Accuracy: 56.10% (561/1000)
+Class [cat] Accuracy: 18.80% (188/1000)
+Class [deer] Accuracy: 70.70% (707/1000)
+Class [dog] Accuracy: 50.20% (502/1000)
+Class [frog] Accuracy: 69.80% (698/1000)
+Class [horse] Accuracy: 79.30% (793/1000)
+Class [ship] Accuracy: 91.10% (911/1000)
+Class [truck] Accuracy: 81.00% (810/1000)
+============================================
+
+Epoch [12/70]: 100%|██████████| 782/782 [00:35<00:00, 22.18it/s, loss=1.92, lr=0.015672]
+
+=== Epoch [12/70] Summary ===
+Train Loss: 1.3257 | Test Accuracy: 66.79%
+Class [plane] Accuracy: 80.70% (807/1000)
+Class [car] Accuracy: 94.50% (945/1000)
+Class [bird] Accuracy: 68.90% (689/1000)
+Class [cat] Accuracy: 25.60% (256/1000)
+Class [deer] Accuracy: 48.70% (487/1000)
+Class [dog] Accuracy: 78.90% (789/1000)
+Class [frog] Accuracy: 53.30% (533/1000)
+Class [horse] Accuracy: 87.10% (871/1000)
+Class [ship] Accuracy: 60.50% (605/1000)
+Class [truck] Accuracy: 69.70% (697/1000)
+============================================
+
+Epoch [13/70]: 100%|██████████| 782/782 [00:35<00:00, 22.14it/s, loss=1.77, lr=0.017385]
+
+=== Epoch [13/70] Summary ===
+Train Loss: 1.3056 | Test Accuracy: 68.35%
+Class [plane] Accuracy: 63.80% (638/1000)
+Class [car] Accuracy: 70.30% (703/1000)
+Class [bird] Accuracy: 38.20% (382/1000)
+Class [cat] Accuracy: 62.50% (625/1000)
+Class [deer] Accuracy: 65.10% (651/1000)
+Class [dog] Accuracy: 60.80% (608/1000)
+Class [frog] Accuracy: 79.20% (792/1000)
+Class [horse] Accuracy: 64.90% (649/1000)
+Class [ship] Accuracy: 97.10% (971/1000)
+Class [truck] Accuracy: 81.60% (816/1000)
+============================================
+
+Epoch [14/70]: 100%|██████████| 782/782 [00:35<00:00, 22.23it/s, loss=1.65, lr=0.019001]
+
+=== Epoch [14/70] Summary ===
+Train Loss: 1.2823 | Test Accuracy: 71.17%
+Class [plane] Accuracy: 64.00% (640/1000)
+Class [car] Accuracy: 82.70% (827/1000)
+Class [bird] Accuracy: 65.80% (658/1000)
+Class [cat] Accuracy: 27.70% (277/1000)
+Class [deer] Accuracy: 68.70% (687/1000)
+Class [dog] Accuracy: 86.50% (865/1000)
+Class [frog] Accuracy: 72.90% (729/1000)
+Class [horse] Accuracy: 69.30% (693/1000)
+Class [ship] Accuracy: 84.90% (849/1000)
+Class [truck] Accuracy: 89.20% (892/1000)
+============================================
+
+Epoch [15/70]: 100%|██████████| 782/782 [00:35<00:00, 22.25it/s, loss=1.15, lr=0.020483]
+
+=== Epoch [15/70] Summary ===
+Train Loss: 1.2556 | Test Accuracy: 70.23%
+Class [plane] Accuracy: 72.90% (729/1000)
+Class [car] Accuracy: 86.30% (863/1000)
+Class [bird] Accuracy: 51.50% (515/1000)
+Class [cat] Accuracy: 39.40% (394/1000)
+Class [deer] Accuracy: 62.20% (622/1000)
+Class [dog] Accuracy: 86.10% (861/1000)
+Class [frog] Accuracy: 65.70% (657/1000)
+Class [horse] Accuracy: 66.90% (669/1000)
+Class [ship] Accuracy: 76.90% (769/1000)
+Class [truck] Accuracy: 94.40% (944/1000)
+============================================
+
+Epoch [16/70]: 100%|██████████| 782/782 [00:35<00:00, 22.28it/s, loss=1.06, lr=0.021798]
+
+=== Epoch [16/70] Summary ===
+Train Loss: 1.2606 | Test Accuracy: 73.49%
+Class [plane] Accuracy: 80.30% (803/1000)
+Class [car] Accuracy: 77.60% (776/1000)
+Class [bird] Accuracy: 65.50% (655/1000)
+Class [cat] Accuracy: 57.00% (570/1000)
+Class [deer] Accuracy: 70.20% (702/1000)
+Class [dog] Accuracy: 79.90% (799/1000)
+Class [frog] Accuracy: 68.90% (689/1000)
+Class [horse] Accuracy: 68.70% (687/1000)
+Class [ship] Accuracy: 86.00% (860/1000)
+Class [truck] Accuracy: 80.80% (808/1000)
+============================================
+
+Epoch [17/70]: 100%|██████████| 782/782 [00:35<00:00, 22.31it/s, loss=1.22, lr=0.022916]
+
+=== Epoch [17/70] Summary ===
+Train Loss: 1.2357 | Test Accuracy: 70.69%
+Class [plane] Accuracy: 79.10% (791/1000)
+Class [car] Accuracy: 96.30% (963/1000)
+Class [bird] Accuracy: 65.90% (659/1000)
+Class [cat] Accuracy: 50.40% (504/1000)
+Class [deer] Accuracy: 57.80% (578/1000)
+Class [dog] Accuracy: 43.50% (435/1000)
+Class [frog] Accuracy: 90.20% (902/1000)
+Class [horse] Accuracy: 72.80% (728/1000)
+Class [ship] Accuracy: 94.10% (941/1000)
+Class [truck] Accuracy: 56.80% (568/1000)
+============================================
+
+Epoch [18/70]: 100%|██████████| 782/782 [00:35<00:00, 22.19it/s, loss=1.72, lr=0.023812]
+
+=== Epoch [18/70] Summary ===
+Train Loss: 1.2400 | Test Accuracy: 69.63%
+Class [plane] Accuracy: 83.90% (839/1000)
+Class [car] Accuracy: 98.30% (983/1000)
+Class [bird] Accuracy: 62.20% (622/1000)
+Class [cat] Accuracy: 56.80% (568/1000)
+Class [deer] Accuracy: 50.00% (500/1000)
+Class [dog] Accuracy: 59.20% (592/1000)
+Class [frog] Accuracy: 79.30% (793/1000)
+Class [horse] Accuracy: 88.10% (881/1000)
+Class [ship] Accuracy: 82.40% (824/1000)
+Class [truck] Accuracy: 36.10% (361/1000)
+============================================
+
+Epoch [19/70]: 100%|██████████| 782/782 [00:35<00:00, 22.14it/s, loss=1.39, lr=0.024467]
+
+=== Epoch [19/70] Summary ===
+Train Loss: 1.2177 | Test Accuracy: 66.59%
+Class [plane] Accuracy: 95.00% (950/1000)
+Class [car] Accuracy: 93.70% (937/1000)
+Class [bird] Accuracy: 62.20% (622/1000)
+Class [cat] Accuracy: 60.10% (601/1000)
+Class [deer] Accuracy: 54.70% (547/1000)
+Class [dog] Accuracy: 43.50% (435/1000)
+Class [frog] Accuracy: 58.00% (580/1000)
+Class [horse] Accuracy: 41.20% (412/1000)
+Class [ship] Accuracy: 82.90% (829/1000)
+Class [truck] Accuracy: 74.60% (746/1000)
+============================================
+
+Epoch [20/70]: 100%|██████████| 782/782 [00:35<00:00, 21.94it/s, loss=1.24, lr=0.024866]
+
+=== Epoch [20/70] Summary ===
+Train Loss: 1.2029 | Test Accuracy: 75.53%
+Class [plane] Accuracy: 74.90% (749/1000)
+Class [car] Accuracy: 82.50% (825/1000)
+Class [bird] Accuracy: 57.50% (575/1000)
+Class [cat] Accuracy: 50.00% (500/1000)
+Class [deer] Accuracy: 66.90% (669/1000)
+Class [dog] Accuracy: 59.40% (594/1000)
+Class [frog] Accuracy: 90.80% (908/1000)
+Class [horse] Accuracy: 89.10% (891/1000)
+Class [ship] Accuracy: 90.20% (902/1000)
+Class [truck] Accuracy: 94.00% (940/1000)
+============================================
+
+Epoch [21/70]: 100%|██████████| 782/782 [00:35<00:00, 22.09it/s, loss=1.88, lr=0.025000]
+
+=== Epoch [21/70] Summary ===
+Train Loss: 1.2112 | Test Accuracy: 74.58%
+Class [plane] Accuracy: 76.20% (762/1000)
+Class [car] Accuracy: 91.20% (912/1000)
+Class [bird] Accuracy: 76.40% (764/1000)
+Class [cat] Accuracy: 62.00% (620/1000)
+Class [deer] Accuracy: 63.50% (635/1000)
+Class [dog] Accuracy: 80.00% (800/1000)
+Class [frog] Accuracy: 84.60% (846/1000)
+Class [horse] Accuracy: 63.20% (632/1000)
+Class [ship] Accuracy: 64.90% (649/1000)
+Class [truck] Accuracy: 83.80% (838/1000)
+============================================
+
+Epoch [22/70]: 100%|██████████| 782/782 [00:36<00:00, 21.72it/s, loss=1.82, lr=0.024974]
+
+=== Epoch [22/70] Summary ===
+Train Loss: 1.1854 | Test Accuracy: 73.09%
+Class [plane] Accuracy: 73.50% (735/1000)
+Class [car] Accuracy: 96.20% (962/1000)
+Class [bird] Accuracy: 83.90% (839/1000)
+Class [cat] Accuracy: 50.60% (506/1000)
+Class [deer] Accuracy: 45.30% (453/1000)
+Class [dog] Accuracy: 47.60% (476/1000)
+Class [frog] Accuracy: 88.30% (883/1000)
+Class [horse] Accuracy: 72.70% (727/1000)
+Class [ship] Accuracy: 91.80% (918/1000)
+Class [truck] Accuracy: 81.00% (810/1000)
+============================================
+
+Epoch [23/70]: 100%|██████████| 782/782 [00:35<00:00, 22.20it/s, loss=1.66, lr=0.024897]
 
 === Epoch [23/70] Summary ===
-Train Loss: 0.8351 | Test Accuracy: 54.95%
-Class [plane] Accuracy: 59.10% (591/1000)
-Class [car] Accuracy: 82.10% (821/1000)
-Class [bird] Accuracy: 32.80% (328/1000)
-Class [cat] Accuracy: 77.50% (775/1000)
-Class [deer] Accuracy: 77.80% (778/1000)
-Class [dog] Accuracy: 0.90% (9/1000)
-Class [frog] Accuracy: 73.10% (731/1000)
-Class [horse] Accuracy: 23.20% (232/1000)
-Class [ship] Accuracy: 89.00% (890/1000)
-Class [truck] Accuracy: 34.00% (340/1000)
+Train Loss: 1.2054 | Test Accuracy: 72.88%
+Class [plane] Accuracy: 87.70% (877/1000)
+Class [car] Accuracy: 83.00% (830/1000)
+Class [bird] Accuracy: 63.00% (630/1000)
+Class [cat] Accuracy: 66.80% (668/1000)
+Class [deer] Accuracy: 63.80% (638/1000)
+Class [dog] Accuracy: 83.60% (836/1000)
+Class [frog] Accuracy: 76.00% (760/1000)
+Class [horse] Accuracy: 61.70% (617/1000)
+Class [ship] Accuracy: 81.30% (813/1000)
+Class [truck] Accuracy: 61.90% (619/1000)
 ============================================
 
-Epoch [24/70]: 100%|██████████| 782/782 [00:49<00:00, 15.89it/s, loss=1.09, lr=0.099077]
+Epoch [24/70]: 100%|██████████| 782/782 [00:35<00:00, 22.23it/s, loss=1.49, lr=0.024769]
 
 === Epoch [24/70] Summary ===
-Train Loss: 0.8281 | Test Accuracy: 49.86%
-Class [plane] Accuracy: 98.00% (980/1000)
-Class [car] Accuracy: 89.60% (896/1000)
-Class [bird] Accuracy: 59.30% (593/1000)
-Class [cat] Accuracy: 16.80% (168/1000)
-Class [deer] Accuracy: 27.70% (277/1000)
-Class [dog] Accuracy: 28.90% (289/1000)
-Class [frog] Accuracy: 72.70% (727/1000)
-Class [horse] Accuracy: 30.80% (308/1000)
-Class [ship] Accuracy: 24.00% (240/1000)
-Class [truck] Accuracy: 50.80% (508/1000)
+Train Loss: 1.1802 | Test Accuracy: 75.58%
+Class [plane] Accuracy: 78.40% (784/1000)
+Class [car] Accuracy: 89.80% (898/1000)
+Class [bird] Accuracy: 69.40% (694/1000)
+Class [cat] Accuracy: 45.90% (459/1000)
+Class [deer] Accuracy: 81.90% (819/1000)
+Class [dog] Accuracy: 47.10% (471/1000)
+Class [frog] Accuracy: 81.60% (816/1000)
+Class [horse] Accuracy: 88.80% (888/1000)
+Class [ship] Accuracy: 94.30% (943/1000)
+Class [truck] Accuracy: 78.60% (786/1000)
 ============================================
 
-Epoch [25/70]: 100%|██████████| 782/782 [00:49<00:00, 15.83it/s, loss=1.37, lr=0.098364]
+Epoch [25/70]: 100%|██████████| 782/782 [00:35<00:00, 22.21it/s, loss=1.07, lr=0.024591]
 
 === Epoch [25/70] Summary ===
-Train Loss: 0.8277 | Test Accuracy: 68.89%
-Class [plane] Accuracy: 65.00% (650/1000)
-Class [car] Accuracy: 95.80% (958/1000)
-Class [bird] Accuracy: 46.60% (466/1000)
-Class [cat] Accuracy: 38.30% (383/1000)
-Class [deer] Accuracy: 79.10% (791/1000)
-Class [dog] Accuracy: 57.30% (573/1000)
-Class [frog] Accuracy: 70.80% (708/1000)
-Class [horse] Accuracy: 84.60% (846/1000)
-Class [ship] Accuracy: 92.00% (920/1000)
-Class [truck] Accuracy: 59.40% (594/1000)
+Train Loss: 1.2126 | Test Accuracy: 71.91%
+Class [plane] Accuracy: 90.10% (901/1000)
+Class [car] Accuracy: 88.40% (884/1000)
+Class [bird] Accuracy: 65.60% (656/1000)
+Class [cat] Accuracy: 39.20% (392/1000)
+Class [deer] Accuracy: 68.60% (686/1000)
+Class [dog] Accuracy: 37.30% (373/1000)
+Class [frog] Accuracy: 83.00% (830/1000)
+Class [horse] Accuracy: 89.00% (890/1000)
+Class [ship] Accuracy: 93.20% (932/1000)
+Class [truck] Accuracy: 64.70% (647/1000)
 ============================================
 
-Epoch [26/70]: 100%|██████████| 782/782 [00:49<00:00, 15.73it/s, loss=0.789, lr=0.097452]
+Epoch [26/70]: 100%|██████████| 782/782 [00:35<00:00, 22.27it/s, loss=0.881, lr=0.024363]
 
 === Epoch [26/70] Summary ===
-Train Loss: 0.8236 | Test Accuracy: 68.55%
-Class [plane] Accuracy: 68.10% (681/1000)
-Class [car] Accuracy: 73.30% (733/1000)
-Class [bird] Accuracy: 80.50% (805/1000)
-Class [cat] Accuracy: 50.70% (507/1000)
-Class [deer] Accuracy: 44.20% (442/1000)
-Class [dog] Accuracy: 69.80% (698/1000)
-Class [frog] Accuracy: 67.40% (674/1000)
-Class [horse] Accuracy: 73.20% (732/1000)
-Class [ship] Accuracy: 74.70% (747/1000)
-Class [truck] Accuracy: 83.60% (836/1000)
+Train Loss: 1.2117 | Test Accuracy: 73.01%
+Class [plane] Accuracy: 71.00% (710/1000)
+Class [car] Accuracy: 68.10% (681/1000)
+Class [bird] Accuracy: 88.80% (888/1000)
+Class [cat] Accuracy: 55.00% (550/1000)
+Class [deer] Accuracy: 72.80% (728/1000)
+Class [dog] Accuracy: 59.10% (591/1000)
+Class [frog] Accuracy: 67.90% (679/1000)
+Class [horse] Accuracy: 71.80% (718/1000)
+Class [ship] Accuracy: 81.10% (811/1000)
+Class [truck] Accuracy: 94.50% (945/1000)
+============================================
+
+Epoch [27/70]: 100%|██████████| 782/782 [00:35<00:00, 21.78it/s, loss=1.13, lr=0.024086]
+
+=== Epoch [27/70] Summary ===
+Train Loss: 1.1553 | Test Accuracy: 74.49%
+Class [plane] Accuracy: 73.40% (734/1000)
+Class [car] Accuracy: 78.30% (783/1000)
+Class [bird] Accuracy: 83.20% (832/1000)
+Class [cat] Accuracy: 43.10% (431/1000)
+Class [deer] Accuracy: 78.30% (783/1000)
+Class [dog] Accuracy: 76.40% (764/1000)
+Class [frog] Accuracy: 69.00% (690/1000)
+Class [horse] Accuracy: 65.70% (657/1000)
+Class [ship] Accuracy: 89.00% (890/1000)
+Class [truck] Accuracy: 88.50% (885/1000)
+============================================
+
+Epoch [28/70]: 100%|██████████| 782/782 [00:35<00:00, 22.06it/s, loss=2, lr=0.023762]
+
+=== Epoch [28/70] Summary ===
+Train Loss: 1.1685 | Test Accuracy: 78.78%
+Class [plane] Accuracy: 84.60% (846/1000)
+Class [car] Accuracy: 94.50% (945/1000)
+Class [bird] Accuracy: 83.90% (839/1000)
+Class [cat] Accuracy: 57.50% (575/1000)
+Class [deer] Accuracy: 77.10% (771/1000)
+Class [dog] Accuracy: 65.60% (656/1000)
+Class [frog] Accuracy: 67.90% (679/1000)
+Class [horse] Accuracy: 85.30% (853/1000)
+Class [ship] Accuracy: 81.70% (817/1000)
+Class [truck] Accuracy: 89.70% (897/1000)
+============================================
+
+Epoch [29/70]: 100%|██████████| 782/782 [00:36<00:00, 21.53it/s, loss=0.825, lr=0.023391]
+
+=== Epoch [29/70] Summary ===
+Train Loss: 1.1752 | Test Accuracy: 69.92%
+Class [plane] Accuracy: 77.30% (773/1000)
+Class [car] Accuracy: 86.80% (868/1000)
+Class [bird] Accuracy: 61.60% (616/1000)
+Class [cat] Accuracy: 38.10% (381/1000)
+Class [deer] Accuracy: 64.50% (645/1000)
+Class [dog] Accuracy: 51.50% (515/1000)
+Class [frog] Accuracy: 86.40% (864/1000)
+Class [horse] Accuracy: 70.30% (703/1000)
+Class [ship] Accuracy: 96.10% (961/1000)
+Class [truck] Accuracy: 66.60% (666/1000)
+============================================
+
+Epoch [30/70]: 100%|██████████| 782/782 [00:36<00:00, 21.63it/s, loss=0.823, lr=0.022976]
+
+=== Epoch [30/70] Summary ===
+Train Loss: 1.1512 | Test Accuracy: 80.24%
+Class [plane] Accuracy: 89.80% (898/1000)
+Class [car] Accuracy: 90.80% (908/1000)
+Class [bird] Accuracy: 76.00% (760/1000)
+Class [cat] Accuracy: 56.20% (562/1000)
+Class [deer] Accuracy: 86.70% (867/1000)
+Class [dog] Accuracy: 73.60% (736/1000)
+Class [frog] Accuracy: 78.70% (787/1000)
+Class [horse] Accuracy: 83.60% (836/1000)
+Class [ship] Accuracy: 86.50% (865/1000)
+Class [truck] Accuracy: 80.50% (805/1000)
+============================================
+
+Epoch [31/70]: 100%|██████████| 782/782 [00:35<00:00, 21.83it/s, loss=1.64, lr=0.022517]
+
+=== Epoch [31/70] Summary ===
+Train Loss: 1.1616 | Test Accuracy: 71.12%
+Class [plane] Accuracy: 70.50% (705/1000)
+Class [car] Accuracy: 90.90% (909/1000)
+Class [bird] Accuracy: 47.40% (474/1000)
+Class [cat] Accuracy: 38.10% (381/1000)
+Class [deer] Accuracy: 77.70% (777/1000)
+Class [dog] Accuracy: 92.50% (925/1000)
+Class [frog] Accuracy: 54.10% (541/1000)
+Class [horse] Accuracy: 82.70% (827/1000)
+Class [ship] Accuracy: 62.50% (625/1000)
+Class [truck] Accuracy: 94.80% (948/1000)
+============================================
+
+Epoch [32/70]: 100%|██████████| 782/782 [00:36<00:00, 21.37it/s, loss=1.65, lr=0.022018]
+
+=== Epoch [32/70] Summary ===
+Train Loss: 1.1463 | Test Accuracy: 75.70%
+Class [plane] Accuracy: 80.60% (806/1000)
+Class [car] Accuracy: 78.90% (789/1000)
+Class [bird] Accuracy: 45.00% (450/1000)
+Class [cat] Accuracy: 51.10% (511/1000)
+Class [deer] Accuracy: 70.60% (706/1000)
+Class [dog] Accuracy: 84.70% (847/1000)
+Class [frog] Accuracy: 70.00% (700/1000)
+Class [horse] Accuracy: 87.10% (871/1000)
+Class [ship] Accuracy: 96.30% (963/1000)
+Class [truck] Accuracy: 92.70% (927/1000)
+============================================
+
+Epoch [33/70]: 100%|██████████| 782/782 [00:35<00:00, 21.98it/s, loss=1.59, lr=0.021479]
+
+=== Epoch [33/70] Summary ===
+Train Loss: 1.1698 | Test Accuracy: 68.91%
+Class [plane] Accuracy: 97.90% (979/1000)
+Class [car] Accuracy: 87.70% (877/1000)
+Class [bird] Accuracy: 58.30% (583/1000)
+Class [cat] Accuracy: 43.10% (431/1000)
+Class [deer] Accuracy: 49.20% (492/1000)
+Class [dog] Accuracy: 66.80% (668/1000)
+Class [frog] Accuracy: 62.50% (625/1000)
+Class [horse] Accuracy: 83.30% (833/1000)
+Class [ship] Accuracy: 60.80% (608/1000)
+Class [truck] Accuracy: 79.50% (795/1000)
+============================================
+
+Epoch [34/70]: 100%|██████████| 782/782 [00:35<00:00, 21.99it/s, loss=1.1, lr=0.020903]
+
+=== Epoch [34/70] Summary ===
+Train Loss: 1.1540 | Test Accuracy: 72.46%
+Class [plane] Accuracy: 55.00% (550/1000)
+Class [car] Accuracy: 82.30% (823/1000)
+Class [bird] Accuracy: 44.80% (448/1000)
+Class [cat] Accuracy: 56.80% (568/1000)
+Class [deer] Accuracy: 61.80% (618/1000)
+Class [dog] Accuracy: 86.70% (867/1000)
+Class [frog] Accuracy: 88.70% (887/1000)
+Class [horse] Accuracy: 64.20% (642/1000)
+Class [ship] Accuracy: 97.00% (970/1000)
+Class [truck] Accuracy: 87.30% (873/1000)
+============================================
+
+Epoch [35/70]: 100%|██████████| 782/782 [00:35<00:00, 22.06it/s, loss=1.1, lr=0.020293]
+
+=== Epoch [35/70] Summary ===
+Train Loss: 1.1704 | Test Accuracy: 74.20%
+Class [plane] Accuracy: 65.40% (654/1000)
+Class [car] Accuracy: 88.50% (885/1000)
+Class [bird] Accuracy: 62.60% (626/1000)
+Class [cat] Accuracy: 81.60% (816/1000)
+Class [deer] Accuracy: 67.60% (676/1000)
+Class [dog] Accuracy: 71.00% (710/1000)
+Class [frog] Accuracy: 39.30% (393/1000)
+Class [horse] Accuracy: 79.10% (791/1000)
+Class [ship] Accuracy: 96.30% (963/1000)
+Class [truck] Accuracy: 90.60% (906/1000)
+============================================
+
+Epoch [36/70]: 100%|██████████| 782/782 [00:35<00:00, 22.09it/s, loss=1.19, lr=0.019651]
+
+=== Epoch [36/70] Summary ===
+Train Loss: 1.1367 | Test Accuracy: 72.47%
+Class [plane] Accuracy: 60.50% (605/1000)
+Class [car] Accuracy: 85.40% (854/1000)
+Class [bird] Accuracy: 52.00% (520/1000)
+Class [cat] Accuracy: 38.00% (380/1000)
+Class [deer] Accuracy: 70.70% (707/1000)
+Class [dog] Accuracy: 71.10% (711/1000)
+Class [frog] Accuracy: 97.50% (975/1000)
+Class [horse] Accuracy: 67.70% (677/1000)
+Class [ship] Accuracy: 88.10% (881/1000)
+Class [truck] Accuracy: 93.70% (937/1000)
+============================================
+
+Epoch [37/70]: 100%|██████████| 782/782 [00:35<00:00, 22.02it/s, loss=0.871, lr=0.018979]
+
+=== Epoch [37/70] Summary ===
+Train Loss: 1.1419 | Test Accuracy: 79.30%
+Class [plane] Accuracy: 83.70% (837/1000)
+Class [car] Accuracy: 97.60% (976/1000)
+Class [bird] Accuracy: 72.10% (721/1000)
+Class [cat] Accuracy: 43.80% (438/1000)
+Class [deer] Accuracy: 89.20% (892/1000)
+Class [dog] Accuracy: 71.90% (719/1000)
+Class [frog] Accuracy: 75.50% (755/1000)
+Class [horse] Accuracy: 81.00% (810/1000)
+Class [ship] Accuracy: 90.40% (904/1000)
+Class [truck] Accuracy: 87.80% (878/1000)
+============================================
+
+Epoch [38/70]: 100%|██████████| 782/782 [00:36<00:00, 21.51it/s, loss=0.885, lr=0.018281]
+
+=== Epoch [38/70] Summary ===
+Train Loss: 1.1515 | Test Accuracy: 80.38%
+Class [plane] Accuracy: 79.90% (799/1000)
+Class [car] Accuracy: 89.90% (899/1000)
+Class [bird] Accuracy: 70.00% (700/1000)
+Class [cat] Accuracy: 68.50% (685/1000)
+Class [deer] Accuracy: 90.70% (907/1000)
+Class [dog] Accuracy: 67.00% (670/1000)
+Class [frog] Accuracy: 88.60% (886/1000)
+Class [horse] Accuracy: 71.40% (714/1000)
+Class [ship] Accuracy: 88.00% (880/1000)
+Class [truck] Accuracy: 89.80% (898/1000)
+============================================
+
+Epoch [39/70]: 100%|██████████| 782/782 [00:35<00:00, 21.96it/s, loss=1.86, lr=0.017559]
+
+=== Epoch [39/70] Summary ===
+Train Loss: 1.1235 | Test Accuracy: 73.36%
+Class [plane] Accuracy: 70.10% (701/1000)
+Class [car] Accuracy: 89.50% (895/1000)
+Class [bird] Accuracy: 81.90% (819/1000)
+Class [cat] Accuracy: 89.20% (892/1000)
+Class [deer] Accuracy: 45.70% (457/1000)
+Class [dog] Accuracy: 52.70% (527/1000)
+Class [frog] Accuracy: 59.60% (596/1000)
+Class [horse] Accuracy: 83.00% (830/1000)
+Class [ship] Accuracy: 80.50% (805/1000)
+Class [truck] Accuracy: 81.40% (814/1000)
+============================================
+
+Epoch [40/70]: 100%|██████████| 782/782 [00:35<00:00, 21.96it/s, loss=1.23, lr=0.016816]
+
+=== Epoch [40/70] Summary ===
+Train Loss: 1.1425 | Test Accuracy: 79.54%
+Class [plane] Accuracy: 75.00% (750/1000)
+Class [car] Accuracy: 92.70% (927/1000)
+Class [bird] Accuracy: 65.10% (651/1000)
+Class [cat] Accuracy: 65.00% (650/1000)
+Class [deer] Accuracy: 85.00% (850/1000)
+Class [dog] Accuracy: 80.40% (804/1000)
+Class [frog] Accuracy: 80.20% (802/1000)
+Class [horse] Accuracy: 76.80% (768/1000)
+Class [ship] Accuracy: 97.40% (974/1000)
+Class [truck] Accuracy: 77.80% (778/1000)
+============================================
+
+Epoch [41/70]: 100%|██████████| 782/782 [00:35<00:00, 22.16it/s, loss=1.77, lr=0.016056]
+
+=== Epoch [41/70] Summary ===
+Train Loss: 1.1313 | Test Accuracy: 75.59%
+Class [plane] Accuracy: 90.70% (907/1000)
+Class [car] Accuracy: 98.30% (983/1000)
+Class [bird] Accuracy: 71.30% (713/1000)
+Class [cat] Accuracy: 70.60% (706/1000)
+Class [deer] Accuracy: 63.00% (630/1000)
+Class [dog] Accuracy: 79.20% (792/1000)
+Class [frog] Accuracy: 76.10% (761/1000)
+Class [horse] Accuracy: 80.20% (802/1000)
+Class [ship] Accuracy: 64.40% (644/1000)
+Class [truck] Accuracy: 62.10% (621/1000)
+============================================
+
+Epoch [42/70]: 100%|██████████| 782/782 [00:35<00:00, 22.28it/s, loss=0.891, lr=0.015281]
+
+=== Epoch [42/70] Summary ===
+Train Loss: 1.1296 | Test Accuracy: 79.84%
+Class [plane] Accuracy: 88.30% (883/1000)
+Class [car] Accuracy: 95.60% (956/1000)
+Class [bird] Accuracy: 64.00% (640/1000)
+Class [cat] Accuracy: 48.90% (489/1000)
+Class [deer] Accuracy: 88.80% (888/1000)
+Class [dog] Accuracy: 55.80% (558/1000)
+Class [frog] Accuracy: 88.00% (880/1000)
+Class [horse] Accuracy: 90.40% (904/1000)
+Class [ship] Accuracy: 88.70% (887/1000)
+Class [truck] Accuracy: 89.90% (899/1000)
+============================================
+
+Epoch [43/70]: 100%|██████████| 782/782 [00:36<00:00, 21.66it/s, loss=0.757, lr=0.014494]
+
+=== Epoch [43/70] Summary ===
+Train Loss: 1.1032 | Test Accuracy: 71.56%
+Class [plane] Accuracy: 87.80% (878/1000)
+Class [car] Accuracy: 98.20% (982/1000)
+Class [bird] Accuracy: 77.20% (772/1000)
+Class [cat] Accuracy: 34.80% (348/1000)
+Class [deer] Accuracy: 44.00% (440/1000)
+Class [dog] Accuracy: 59.30% (593/1000)
+Class [frog] Accuracy: 78.40% (784/1000)
+Class [horse] Accuracy: 90.80% (908/1000)
+Class [ship] Accuracy: 89.00% (890/1000)
+Class [truck] Accuracy: 56.10% (561/1000)
+============================================
+
+Epoch [44/70]: 100%|██████████| 782/782 [00:39<00:00, 19.59it/s, loss=0.865, lr=0.013700]
+
+=== Epoch [44/70] Summary ===
+Train Loss: 1.1130 | Test Accuracy: 77.82%
+Class [plane] Accuracy: 63.40% (634/1000)
+Class [car] Accuracy: 94.70% (947/1000)
+Class [bird] Accuracy: 75.50% (755/1000)
+Class [cat] Accuracy: 64.20% (642/1000)
+Class [deer] Accuracy: 72.60% (726/1000)
+Class [dog] Accuracy: 73.00% (730/1000)
+Class [frog] Accuracy: 94.50% (945/1000)
+Class [horse] Accuracy: 85.90% (859/1000)
+Class [ship] Accuracy: 84.30% (843/1000)
+Class [truck] Accuracy: 70.10% (701/1000)
+============================================
+
+Epoch [45/70]: 100%|██████████| 782/782 [00:35<00:00, 21.98it/s, loss=0.846, lr=0.012900]
+
+=== Epoch [45/70] Summary ===
+Train Loss: 1.1139 | Test Accuracy: 75.87%
+Class [plane] Accuracy: 68.30% (683/1000)
+Class [car] Accuracy: 96.60% (966/1000)
+Class [bird] Accuracy: 69.60% (696/1000)
+Class [cat] Accuracy: 63.60% (636/1000)
+Class [deer] Accuracy: 53.00% (530/1000)
+Class [dog] Accuracy: 88.40% (884/1000)
+Class [frog] Accuracy: 64.40% (644/1000)
+Class [horse] Accuracy: 75.30% (753/1000)
+Class [ship] Accuracy: 90.00% (900/1000)
+Class [truck] Accuracy: 89.50% (895/1000)
+============================================
+
+Epoch [46/70]: 100%|██████████| 782/782 [00:36<00:00, 21.40it/s, loss=1.31, lr=0.012099]
+
+=== Epoch [46/70] Summary ===
+Train Loss: 1.1061 | Test Accuracy: 80.70%
+Class [plane] Accuracy: 82.70% (827/1000)
+Class [car] Accuracy: 93.10% (931/1000)
+Class [bird] Accuracy: 74.30% (743/1000)
+Class [cat] Accuracy: 53.90% (539/1000)
+Class [deer] Accuracy: 68.90% (689/1000)
+Class [dog] Accuracy: 72.20% (722/1000)
+Class [frog] Accuracy: 93.70% (937/1000)
+Class [horse] Accuracy: 90.00% (900/1000)
+Class [ship] Accuracy: 84.20% (842/1000)
+Class [truck] Accuracy: 94.00% (940/1000)
+============================================
+
+Epoch [47/70]: 100%|██████████| 782/782 [00:35<00:00, 21.90it/s, loss=0.619, lr=0.011299]
+
+=== Epoch [47/70] Summary ===
+Train Loss: 1.0905 | Test Accuracy: 81.17%
+Class [plane] Accuracy: 74.10% (741/1000)
+Class [car] Accuracy: 99.20% (992/1000)
+Class [bird] Accuracy: 75.70% (757/1000)
+Class [cat] Accuracy: 70.90% (709/1000)
+Class [deer] Accuracy: 82.90% (829/1000)
+Class [dog] Accuracy: 68.60% (686/1000)
+Class [frog] Accuracy: 87.50% (875/1000)
+Class [horse] Accuracy: 89.40% (894/1000)
+Class [ship] Accuracy: 90.70% (907/1000)
+Class [truck] Accuracy: 72.70% (727/1000)
+============================================
+
+Epoch [48/70]: 100%|██████████| 782/782 [00:36<00:00, 21.60it/s, loss=0.58, lr=0.010505]
+
+=== Epoch [48/70] Summary ===
+Train Loss: 1.0709 | Test Accuracy: 78.53%
+Class [plane] Accuracy: 77.70% (777/1000)
+Class [car] Accuracy: 71.30% (713/1000)
+Class [bird] Accuracy: 75.90% (759/1000)
+Class [cat] Accuracy: 79.50% (795/1000)
+Class [deer] Accuracy: 70.00% (700/1000)
+Class [dog] Accuracy: 50.10% (501/1000)
+Class [frog] Accuracy: 82.40% (824/1000)
+Class [horse] Accuracy: 91.10% (911/1000)
+Class [ship] Accuracy: 88.90% (889/1000)
+Class [truck] Accuracy: 98.40% (984/1000)
+============================================
+
+Epoch [49/70]: 100%|██████████| 782/782 [00:35<00:00, 21.99it/s, loss=1.9, lr=0.009718]
+
+=== Epoch [49/70] Summary ===
+Train Loss: 1.0836 | Test Accuracy: 80.60%
+Class [plane] Accuracy: 86.50% (865/1000)
+Class [car] Accuracy: 90.80% (908/1000)
+Class [bird] Accuracy: 76.30% (763/1000)
+Class [cat] Accuracy: 59.90% (599/1000)
+Class [deer] Accuracy: 76.70% (767/1000)
+Class [dog] Accuracy: 58.20% (582/1000)
+Class [frog] Accuracy: 83.30% (833/1000)
+Class [horse] Accuracy: 91.40% (914/1000)
+Class [ship] Accuracy: 96.70% (967/1000)
+Class [truck] Accuracy: 86.20% (862/1000)
+============================================
+
+Epoch [50/70]: 100%|██████████| 782/782 [00:35<00:00, 22.10it/s, loss=0.606, lr=0.008943]
+
+=== Epoch [50/70] Summary ===
+Train Loss: 1.1103 | Test Accuracy: 82.92%
+Class [plane] Accuracy: 84.60% (846/1000)
+Class [car] Accuracy: 96.50% (965/1000)
+Class [bird] Accuracy: 84.80% (848/1000)
+Class [cat] Accuracy: 76.00% (760/1000)
+Class [deer] Accuracy: 83.20% (832/1000)
+Class [dog] Accuracy: 71.20% (712/1000)
+Class [frog] Accuracy: 75.00% (750/1000)
+Class [horse] Accuracy: 90.50% (905/1000)
+Class [ship] Accuracy: 89.70% (897/1000)
+Class [truck] Accuracy: 77.70% (777/1000)
+============================================
+
+Epoch [51/70]: 100%|██████████| 782/782 [00:35<00:00, 21.73it/s, loss=1.17, lr=0.008183]
+
+=== Epoch [51/70] Summary ===
+Train Loss: 1.0995 | Test Accuracy: 82.10%
+Class [plane] Accuracy: 92.40% (924/1000)
+Class [car] Accuracy: 97.20% (972/1000)
+Class [bird] Accuracy: 79.40% (794/1000)
+Class [cat] Accuracy: 61.70% (617/1000)
+Class [deer] Accuracy: 72.70% (727/1000)
+Class [dog] Accuracy: 83.90% (839/1000)
+Class [frog] Accuracy: 81.60% (816/1000)
+Class [horse] Accuracy: 91.90% (919/1000)
+Class [ship] Accuracy: 86.30% (863/1000)
+Class [truck] Accuracy: 73.90% (739/1000)
+============================================
+
+Epoch [52/70]: 100%|██████████| 782/782 [00:36<00:00, 21.32it/s, loss=0.626, lr=0.007440]
+
+=== Epoch [52/70] Summary ===
+Train Loss: 1.0761 | Test Accuracy: 82.26%
+Class [plane] Accuracy: 88.10% (881/1000)
+Class [car] Accuracy: 84.10% (841/1000)
+Class [bird] Accuracy: 65.50% (655/1000)
+Class [cat] Accuracy: 87.80% (878/1000)
+Class [deer] Accuracy: 80.40% (804/1000)
+Class [dog] Accuracy: 70.70% (707/1000)
+Class [frog] Accuracy: 83.60% (836/1000)
+Class [horse] Accuracy: 74.20% (742/1000)
+Class [ship] Accuracy: 92.70% (927/1000)
+Class [truck] Accuracy: 95.50% (955/1000)
+============================================
+
+Epoch [53/70]: 100%|██████████| 782/782 [00:36<00:00, 21.17it/s, loss=0.955, lr=0.006718]
+
+=== Epoch [53/70] Summary ===
+Train Loss: 1.0482 | Test Accuracy: 79.12%
+Class [plane] Accuracy: 72.80% (728/1000)
+Class [car] Accuracy: 88.80% (888/1000)
+Class [bird] Accuracy: 77.80% (778/1000)
+Class [cat] Accuracy: 53.80% (538/1000)
+Class [deer] Accuracy: 72.90% (729/1000)
+Class [dog] Accuracy: 90.40% (904/1000)
+Class [frog] Accuracy: 61.50% (615/1000)
+Class [horse] Accuracy: 85.00% (850/1000)
+Class [ship] Accuracy: 91.50% (915/1000)
+Class [truck] Accuracy: 96.70% (967/1000)
+============================================
+
+Epoch [54/70]: 100%|██████████| 782/782 [00:35<00:00, 21.72it/s, loss=0.732, lr=0.006020]
+
+=== Epoch [54/70] Summary ===
+Train Loss: 1.0422 | Test Accuracy: 83.02%
+Class [plane] Accuracy: 92.40% (924/1000)
+Class [car] Accuracy: 96.30% (963/1000)
+Class [bird] Accuracy: 75.50% (755/1000)
+Class [cat] Accuracy: 44.70% (447/1000)
+Class [deer] Accuracy: 70.30% (703/1000)
+Class [dog] Accuracy: 85.00% (850/1000)
+Class [frog] Accuracy: 94.80% (948/1000)
+Class [horse] Accuracy: 93.80% (938/1000)
+Class [ship] Accuracy: 87.50% (875/1000)
+Class [truck] Accuracy: 89.90% (899/1000)
+============================================
+
+Epoch [55/70]: 100%|██████████| 782/782 [00:35<00:00, 21.82it/s, loss=0.821, lr=0.005348]
+
+=== Epoch [55/70] Summary ===
+Train Loss: 1.0397 | Test Accuracy: 84.54%
+Class [plane] Accuracy: 87.50% (875/1000)
+Class [car] Accuracy: 95.60% (956/1000)
+Class [bird] Accuracy: 72.20% (722/1000)
+Class [cat] Accuracy: 72.10% (721/1000)
+Class [deer] Accuracy: 81.10% (811/1000)
+Class [dog] Accuracy: 88.20% (882/1000)
+Class [frog] Accuracy: 82.40% (824/1000)
+Class [horse] Accuracy: 90.60% (906/1000)
+Class [ship] Accuracy: 95.50% (955/1000)
+Class [truck] Accuracy: 80.20% (802/1000)
+============================================
+
+Epoch [56/70]: 100%|██████████| 782/782 [00:36<00:00, 21.44it/s, loss=0.656, lr=0.004706]
+
+=== Epoch [56/70] Summary ===
+Train Loss: 1.0294 | Test Accuracy: 82.72%
+Class [plane] Accuracy: 84.80% (848/1000)
+Class [car] Accuracy: 95.40% (954/1000)
+Class [bird] Accuracy: 74.70% (747/1000)
+Class [cat] Accuracy: 47.40% (474/1000)
+Class [deer] Accuracy: 82.20% (822/1000)
+Class [dog] Accuracy: 78.80% (788/1000)
+Class [frog] Accuracy: 98.40% (984/1000)
+Class [horse] Accuracy: 87.30% (873/1000)
+Class [ship] Accuracy: 91.50% (915/1000)
+Class [truck] Accuracy: 86.70% (867/1000)
+============================================
+
+Epoch [57/70]: 100%|██████████| 782/782 [00:36<00:00, 21.63it/s, loss=1.06, lr=0.004096]
+
+=== Epoch [57/70] Summary ===
+Train Loss: 1.0275 | Test Accuracy: 84.28%
+Class [plane] Accuracy: 93.90% (939/1000)
+Class [car] Accuracy: 95.00% (950/1000)
+Class [bird] Accuracy: 62.60% (626/1000)
+Class [cat] Accuracy: 69.90% (699/1000)
+Class [deer] Accuracy: 78.40% (784/1000)
+Class [dog] Accuracy: 71.70% (717/1000)
+Class [frog] Accuracy: 89.60% (896/1000)
+Class [horse] Accuracy: 95.10% (951/1000)
+Class [ship] Accuracy: 92.30% (923/1000)
+Class [truck] Accuracy: 94.30% (943/1000)
+============================================
+
+Epoch [58/70]: 100%|██████████| 782/782 [00:36<00:00, 21.44it/s, loss=1.05, lr=0.003521]
+
+=== Epoch [58/70] Summary ===
+Train Loss: 1.0012 | Test Accuracy: 85.94%
+Class [plane] Accuracy: 87.40% (874/1000)
+Class [car] Accuracy: 97.00% (970/1000)
+Class [bird] Accuracy: 77.70% (777/1000)
+Class [cat] Accuracy: 85.20% (852/1000)
+Class [deer] Accuracy: 76.00% (760/1000)
+Class [dog] Accuracy: 73.00% (730/1000)
+Class [frog] Accuracy: 87.40% (874/1000)
+Class [horse] Accuracy: 92.50% (925/1000)
+Class [ship] Accuracy: 93.10% (931/1000)
+Class [truck] Accuracy: 90.10% (901/1000)
+============================================
+
+Epoch [59/70]: 100%|██████████| 782/782 [00:35<00:00, 22.09it/s, loss=1.93, lr=0.002982]
+
+=== Epoch [59/70] Summary ===
+Train Loss: 1.0095 | Test Accuracy: 86.83%
+Class [plane] Accuracy: 82.70% (827/1000)
+Class [car] Accuracy: 95.20% (952/1000)
+Class [bird] Accuracy: 87.90% (879/1000)
+Class [cat] Accuracy: 83.80% (838/1000)
+Class [deer] Accuracy: 85.10% (851/1000)
+Class [dog] Accuracy: 65.40% (654/1000)
+Class [frog] Accuracy: 92.80% (928/1000)
+Class [horse] Accuracy: 89.80% (898/1000)
+Class [ship] Accuracy: 92.50% (925/1000)
+Class [truck] Accuracy: 93.10% (931/1000)
+============================================
+
+Epoch [60/70]: 100%|██████████| 782/782 [00:35<00:00, 21.96it/s, loss=1.09, lr=0.002483]
+
+=== Epoch [60/70] Summary ===
+Train Loss: 0.9706 | Test Accuracy: 88.07%
+Class [plane] Accuracy: 91.20% (912/1000)
+Class [car] Accuracy: 98.20% (982/1000)
+Class [bird] Accuracy: 73.10% (731/1000)
+Class [cat] Accuracy: 79.60% (796/1000)
+Class [deer] Accuracy: 89.50% (895/1000)
+Class [dog] Accuracy: 82.10% (821/1000)
+Class [frog] Accuracy: 92.80% (928/1000)
+Class [horse] Accuracy: 92.50% (925/1000)
+Class [ship] Accuracy: 93.00% (930/1000)
+Class [truck] Accuracy: 88.70% (887/1000)
+============================================
+
+Epoch [61/70]: 100%|██████████| 782/782 [00:35<00:00, 21.81it/s, loss=0.905, lr=0.002024]
+
+=== Epoch [61/70] Summary ===
+Train Loss: 0.9775 | Test Accuracy: 88.49%
+Class [plane] Accuracy: 84.40% (844/1000)
+Class [car] Accuracy: 95.10% (951/1000)
+Class [bird] Accuracy: 82.10% (821/1000)
+Class [cat] Accuracy: 75.90% (759/1000)
+Class [deer] Accuracy: 88.30% (883/1000)
+Class [dog] Accuracy: 87.60% (876/1000)
+Class [frog] Accuracy: 90.90% (909/1000)
+Class [horse] Accuracy: 92.20% (922/1000)
+Class [ship] Accuracy: 92.10% (921/1000)
+Class [truck] Accuracy: 96.30% (963/1000)
+============================================
+
+Epoch [62/70]: 100%|██████████| 782/782 [00:35<00:00, 22.25it/s, loss=1.07, lr=0.001609]
+
+=== Epoch [62/70] Summary ===
+Train Loss: 0.9803 | Test Accuracy: 88.12%
+Class [plane] Accuracy: 94.10% (941/1000)
+Class [car] Accuracy: 97.50% (975/1000)
+Class [bird] Accuracy: 86.40% (864/1000)
+Class [cat] Accuracy: 77.20% (772/1000)
+Class [deer] Accuracy: 79.10% (791/1000)
+Class [dog] Accuracy: 78.60% (786/1000)
+Class [frog] Accuracy: 91.80% (918/1000)
+Class [horse] Accuracy: 91.80% (918/1000)
+Class [ship] Accuracy: 92.50% (925/1000)
+Class [truck] Accuracy: 92.20% (922/1000)
+============================================
+
+Epoch [63/70]: 100%|██████████| 782/782 [00:36<00:00, 21.65it/s, loss=1.6, lr=0.001238]
+
+=== Epoch [63/70] Summary ===
+Train Loss: 0.9591 | Test Accuracy: 89.44%
+Class [plane] Accuracy: 91.50% (915/1000)
+Class [car] Accuracy: 97.40% (974/1000)
+Class [bird] Accuracy: 82.40% (824/1000)
+Class [cat] Accuracy: 80.90% (809/1000)
+Class [deer] Accuracy: 86.80% (868/1000)
+Class [dog] Accuracy: 82.20% (822/1000)
+Class [frog] Accuracy: 93.30% (933/1000)
+Class [horse] Accuracy: 94.50% (945/1000)
+Class [ship] Accuracy: 93.00% (930/1000)
+Class [truck] Accuracy: 92.40% (924/1000)
+============================================
+
+Epoch [64/70]: 100%|██████████| 782/782 [00:35<00:00, 22.25it/s, loss=0.732, lr=0.000914]
+
+=== Epoch [64/70] Summary ===
+Train Loss: 0.9397 | Test Accuracy: 89.21%
+Class [plane] Accuracy: 91.60% (916/1000)
+Class [car] Accuracy: 97.30% (973/1000)
+Class [bird] Accuracy: 84.60% (846/1000)
+Class [cat] Accuracy: 78.60% (786/1000)
+Class [deer] Accuracy: 86.10% (861/1000)
+Class [dog] Accuracy: 82.10% (821/1000)
+Class [frog] Accuracy: 93.20% (932/1000)
+Class [horse] Accuracy: 92.90% (929/1000)
+Class [ship] Accuracy: 91.10% (911/1000)
+Class [truck] Accuracy: 94.60% (946/1000)
+============================================
+
+Epoch [65/70]: 100%|██████████| 782/782 [00:35<00:00, 22.18it/s, loss=1.17, lr=0.000637]
+
+=== Epoch [65/70] Summary ===
+Train Loss: 0.9502 | Test Accuracy: 89.91%
+Class [plane] Accuracy: 89.80% (898/1000)
+Class [car] Accuracy: 96.80% (968/1000)
+Class [bird] Accuracy: 86.60% (866/1000)
+Class [cat] Accuracy: 74.50% (745/1000)
+Class [deer] Accuracy: 87.30% (873/1000)
+Class [dog] Accuracy: 86.80% (868/1000)
+Class [frog] Accuracy: 94.80% (948/1000)
+Class [horse] Accuracy: 92.00% (920/1000)
+Class [ship] Accuracy: 96.00% (960/1000)
+Class [truck] Accuracy: 94.50% (945/1000)
+============================================
+
+Epoch [66/70]: 100%|██████████| 782/782 [00:35<00:00, 22.21it/s, loss=0.603, lr=0.000410]
+
+=== Epoch [66/70] Summary ===
+Train Loss: 0.9147 | Test Accuracy: 90.03%
+Class [plane] Accuracy: 94.20% (942/1000)
+Class [car] Accuracy: 97.40% (974/1000)
+Class [bird] Accuracy: 85.10% (851/1000)
+Class [cat] Accuracy: 79.40% (794/1000)
+Class [deer] Accuracy: 88.30% (883/1000)
+Class [dog] Accuracy: 84.60% (846/1000)
+Class [frog] Accuracy: 92.10% (921/1000)
+Class [horse] Accuracy: 93.20% (932/1000)
+Class [ship] Accuracy: 92.90% (929/1000)
+Class [truck] Accuracy: 93.10% (931/1000)
+============================================
+
+Epoch [67/70]: 100%|██████████| 782/782 [00:35<00:00, 22.12it/s, loss=0.46, lr=0.000231]
+
+=== Epoch [67/70] Summary ===
+Train Loss: 0.9217 | Test Accuracy: 90.37%
+Class [plane] Accuracy: 93.20% (932/1000)
+Class [car] Accuracy: 96.40% (964/1000)
+Class [bird] Accuracy: 86.40% (864/1000)
+Class [cat] Accuracy: 78.70% (787/1000)
+Class [deer] Accuracy: 89.30% (893/1000)
+Class [dog] Accuracy: 84.10% (841/1000)
+Class [frog] Accuracy: 93.70% (937/1000)
+Class [horse] Accuracy: 92.20% (922/1000)
+Class [ship] Accuracy: 94.20% (942/1000)
+Class [truck] Accuracy: 95.50% (955/1000)
+============================================
+
+Epoch [68/70]: 100%|██████████| 782/782 [00:36<00:00, 21.68it/s, loss=0.556, lr=0.000103]
+
+=== Epoch [68/70] Summary ===
+Train Loss: 0.9092 | Test Accuracy: 90.50%
+Class [plane] Accuracy: 92.70% (927/1000)
+Class [car] Accuracy: 97.00% (970/1000)
+Class [bird] Accuracy: 85.90% (859/1000)
+Class [cat] Accuracy: 79.60% (796/1000)
+Class [deer] Accuracy: 90.70% (907/1000)
+Class [dog] Accuracy: 84.00% (840/1000)
+Class [frog] Accuracy: 93.90% (939/1000)
+Class [horse] Accuracy: 93.00% (930/1000)
+Class [ship] Accuracy: 94.60% (946/1000)
+Class [truck] Accuracy: 93.60% (936/1000)
+============================================
+
+Epoch [69/70]: 100%|██████████| 782/782 [00:35<00:00, 22.07it/s, loss=0.668, lr=0.000027]
+
+=== Epoch [69/70] Summary ===
+Train Loss: 0.9332 | Test Accuracy: 90.36%
+Class [plane] Accuracy: 94.40% (944/1000)
+Class [car] Accuracy: 97.10% (971/1000)
+Class [bird] Accuracy: 86.00% (860/1000)
+Class [cat] Accuracy: 80.70% (807/1000)
+Class [deer] Accuracy: 88.80% (888/1000)
+Class [dog] Accuracy: 83.90% (839/1000)
+Class [frog] Accuracy: 92.90% (929/1000)
+Class [horse] Accuracy: 91.90% (919/1000)
+Class [ship] Accuracy: 93.90% (939/1000)
+Class [truck] Accuracy: 94.00% (940/1000)
+============================================
+
+Epoch [70/70]: 100%|██████████| 782/782 [00:35<00:00, 21.90it/s, loss=1.3, lr=0.000001]
+
+=== Epoch [70/70] Summary ===
+Train Loss: 0.9233 | Test Accuracy: 90.41%
+Class [plane] Accuracy: 93.80% (938/1000)
+Class [car] Accuracy: 97.10% (971/1000)
+Class [bird] Accuracy: 86.10% (861/1000)
+Class [cat] Accuracy: 80.80% (808/1000)
+Class [deer] Accuracy: 90.30% (903/1000)
+Class [dog] Accuracy: 84.30% (843/1000)
+Class [frog] Accuracy: 92.20% (922/1000)
+Class [horse] Accuracy: 91.70% (917/1000)
+Class [ship] Accuracy: 94.10% (941/1000)
+Class [truck] Accuracy: 93.70% (937/1000)
 ============================================
