@@ -52,30 +52,121 @@ pip install -r requirements.txt
 python train.py
 ```
 
-## Results
 
-- ✅ **Final test accuracy:** ~90.5%  
-- ✅ **Parameter count:** <190k  
-- ✅ **Converges within ~70 epochs**
+## Receptive Field Calculations
+```
+| Block / Layer     | RF after layer |
+| ----------------- | -------------- |
+| Input             | 1              |
+| Conv1             | 3              |
+| Conv2             | 5              |
+| Conv3 (dilated)   | 9              |
+| Depthwise4        | 11             |
+| Conv5 (dilated)   | 15             |
+| Depthwise6        | 17             |
+| Depthwise7        | 19             |
+| Depthwise8        | 21             |
+| Depthwise9        | 23             |
+| Depthwise10       | 25             |
+| Conv11            | 27             |
+| Conv12 (stride=2) | 29             |
+| Conv13 (dilated)  | 37             |
+| Conv14 (dilated)  | 45             |
+| Depthwise15       | 49             |
+| GAP               | Full image RF  |
+```
 
-## Techniques that enabled 90.5% under 190k params
+## Model Summary
 
-- ✅ **Depthwise Separable Convolutions** — drastically reduced parameter count and computational cost
-- ✅ **Dilation** — used in specific layers to increase effective receptive field
-- ✅ **Mixup augmentation** — helped generalization and stabilized training
-- ✅ **OneCycleLR scheduler** — allowed higher learning rates and fast convergence
-- ✅ **Coarse Dropout (Cutout)** — improved robustness
-- ✅ **Gradient Clipping** — avoided gradient explosions during aggressive learning phases
-
-## Dependencies
-
-- PyTorch
-- Albumentations
-- torchvision
-- tqdm
-- matplotlib
-- opencv-python-headless
-
-## License
-
-MIT License
+```
+----------------------------------------------------------------
+        Layer (type)               Output Shape         Param #
+================================================================
+            Conv2d-1           [-1, 32, 32, 32]             864
+       BatchNorm2d-2           [-1, 32, 32, 32]              64
+              ReLU-3           [-1, 32, 32, 32]               0
+           Dropout-4           [-1, 32, 32, 32]               0
+         ConvBlock-5           [-1, 32, 32, 32]               0
+            Conv2d-6           [-1, 64, 32, 32]          18,432
+       BatchNorm2d-7           [-1, 64, 32, 32]             128
+              ReLU-8           [-1, 64, 32, 32]               0
+           Dropout-9           [-1, 64, 32, 32]               0
+        ConvBlock-10           [-1, 64, 32, 32]               0
+           Conv2d-11           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-12           [-1, 64, 32, 32]             128
+             ReLU-13           [-1, 64, 32, 32]               0
+          Dropout-14           [-1, 64, 32, 32]               0
+        ConvBlock-15           [-1, 64, 32, 32]               0
+           Conv2d-16           [-1, 64, 32, 32]             576
+           Conv2d-17           [-1, 64, 32, 32]           4,096
+      BatchNorm2d-18           [-1, 64, 32, 32]             128
+             ReLU-19           [-1, 64, 32, 32]               0
+          Dropout-20           [-1, 64, 32, 32]               0
+DepthwiseSeparableConv-21           [-1, 64, 32, 32]               0
+           Conv2d-22           [-1, 64, 32, 32]          36,864
+      BatchNorm2d-23           [-1, 64, 32, 32]             128
+             ReLU-24           [-1, 64, 32, 32]               0
+          Dropout-25           [-1, 64, 32, 32]               0
+        ConvBlock-26           [-1, 64, 32, 32]               0
+           Conv2d-27           [-1, 64, 32, 32]             576
+           Conv2d-28           [-1, 64, 32, 32]           4,096
+      BatchNorm2d-29           [-1, 64, 32, 32]             128
+             ReLU-30           [-1, 64, 32, 32]               0
+          Dropout-31           [-1, 64, 32, 32]               0
+DepthwiseSeparableConv-32           [-1, 64, 32, 32]               0
+           Conv2d-33           [-1, 64, 32, 32]             576
+           Conv2d-34           [-1, 64, 32, 32]           4,096
+      BatchNorm2d-35           [-1, 64, 32, 32]             128
+             ReLU-36           [-1, 64, 32, 32]               0
+          Dropout-37           [-1, 64, 32, 32]               0
+DepthwiseSeparableConv-38           [-1, 64, 32, 32]               0
+           Conv2d-39           [-1, 64, 32, 32]             576
+           Conv2d-40           [-1, 64, 32, 32]           4,096
+      BatchNorm2d-41           [-1, 64, 32, 32]             128
+             ReLU-42           [-1, 64, 32, 32]               0
+          Dropout-43           [-1, 64, 32, 32]               0
+DepthwiseSeparableConv-44           [-1, 64, 32, 32]               0
+           Conv2d-45           [-1, 64, 32, 32]             576
+           Conv2d-46           [-1, 64, 32, 32]           4,096
+      BatchNorm2d-47           [-1, 64, 32, 32]             128
+             ReLU-48           [-1, 64, 32, 32]               0
+          Dropout-49           [-1, 64, 32, 32]               0
+DepthwiseSeparableConv-50           [-1, 64, 32, 32]               0
+           Conv2d-51           [-1, 64, 32, 32]             576
+           Conv2d-52           [-1, 64, 32, 32]           4,096
+      BatchNorm2d-53           [-1, 64, 32, 32]             128
+             ReLU-54           [-1, 64, 32, 32]               0
+          Dropout-55           [-1, 64, 32, 32]               0
+DepthwiseSeparableConv-56           [-1, 64, 32, 32]               0
+           Conv2d-57           [-1, 32, 32, 32]          18,432
+      BatchNorm2d-58           [-1, 32, 32, 32]              64
+             ReLU-59           [-1, 32, 32, 32]               0
+          Dropout-60           [-1, 32, 32, 32]               0
+        ConvBlock-61           [-1, 32, 32, 32]               0
+           Conv2d-62           [-1, 32, 16, 16]           9,216
+      BatchNorm2d-63           [-1, 32, 16, 16]              64
+             ReLU-64           [-1, 32, 16, 16]               0
+          Dropout-65           [-1, 32, 16, 16]               0
+        ConvBlock-66           [-1, 32, 16, 16]               0
+           Conv2d-67           [-1, 32, 14, 14]           9,216
+      BatchNorm2d-68           [-1, 32, 14, 14]              64
+             ReLU-69           [-1, 32, 14, 14]               0
+        ConvBlock-70           [-1, 32, 14, 14]               0
+           Conv2d-71           [-1, 64, 12, 12]          18,432
+      BatchNorm2d-72           [-1, 64, 12, 12]             128
+             ReLU-73           [-1, 64, 12, 12]               0
+        ConvBlock-74           [-1, 64, 12, 12]               0
+           Conv2d-75           [-1, 64, 12, 12]             576
+           Conv2d-76           [-1, 64, 12, 12]           4,096
+      BatchNorm2d-77           [-1, 64, 12, 12]             128
+             ReLU-78           [-1, 64, 12, 12]               0
+DepthwiseSeparableConv-79           [-1, 64, 12, 12]               0
+AdaptiveAvgPool2d-80             [-1, 64, 1, 1]               0
+           Conv2d-81             [-1, 64, 1, 1]           4,096
+        ConvBlock-82             [-1, 64, 1, 1]               0
+           Linear-83                   [-1, 10]             650
+================================================================
+Total params: 187,434
+Trainable params: 187,434
+Non-trainable params: 0
+```
